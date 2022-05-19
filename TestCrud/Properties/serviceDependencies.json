@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "mssql1": {
-      "type": "mssql",
-      "connectionId": "server-arqui-10.database.windows.net"
-    }
-  }
-}
