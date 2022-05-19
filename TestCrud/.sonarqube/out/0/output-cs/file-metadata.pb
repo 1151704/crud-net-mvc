@@ -1,0 +1,13 @@
+c
+ZC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\BundleConfig.csutf-8c
+ZC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\FilterConfig.csutf-8b
+YC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\RouteConfig.csutf-8l
+cC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\empleadosController.csutf-8g
+^C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\HomeController.csutf-8X
+OC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Global.asax.csutf-8\
+QC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Model.Context.csutf-8T
+IC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Model.csutf-8]
+RC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Model.Designer.csutf-8d
+[C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Properties\AssemblyInfo.csutf-8[
+PC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\tblEmpleados.csutf-8ˆ
+}C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8

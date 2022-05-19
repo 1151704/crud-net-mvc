@@ -1,0 +1,1 @@
+C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\.sonarqube\out\0
