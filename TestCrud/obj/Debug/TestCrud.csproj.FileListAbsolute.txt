@@ -84,3 +84,7 @@ C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\obj\Debug\TestC
 C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\obj\Debug\TestCrud.csproj.CopyComplete
 C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\obj\Debug\TestCrud.dll
 C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\obj\Debug\TestCrud.pdb
+C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\bin\EntityFramework.dll
+C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\bin\EntityFramework.SqlServer.dll
+C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\bin\EntityFramework.xml
+C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\bin\EntityFramework.SqlServer.xml
