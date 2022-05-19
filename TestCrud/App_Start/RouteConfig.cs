@@ -7,7 +7,7 @@ using System.Web.Routing;
 
 namespace TestCrud
 {
-    public class RouteConfig
+    public static class RouteConfig
     {
         public static void RegisterRoutes(RouteCollection routes)
         {

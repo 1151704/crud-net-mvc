@@ -1,13 +1,14 @@
-»
+ê
 ZC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\BundleConfig.cs
 	namespace 	
 TestCrud
  
 { 
 public 
-
-class 
-BundleConfig 
+
+static 
+class 
+BundleConfig $
 { 
 public		 
 static		 
@@ -24,96 +25,31 @@ ZC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\Bund
 . 
 Add 
 ( 
-new 
-ScriptBundle (
-(( )
-$str) ;
-); <
-.< =
-Include= D
-(D E
-$str 7
-)7 8
-)8 9
-;9 :
-bundles 
-. 
-Add 
-( 
-new 
-ScriptBundle (
-(( )
-$str) >
-)> ?
-.? @
-Include@ G
-(G H
-$str 4
-)4 5
-)5 6
-;6 7
-bundles 
-. 
-Add 
-( 
-new 
-ScriptBundle (
-(( )
-$str) >
-)> ?
-.? @
-Include@ G
-(G H
-$str /
-)/ 0
-)0 1
-;1 2
-bundles 
-. 
-Add 
-( 
-new 
-ScriptBundle (
-(( )
-$str) >
-)> ?
-.? @
-Include@ G
-(G H
-$str .
-). /
-)/ 0
-;0 1
-bundles 
-. 
-Add 
-( 
-new 
-StyleBundle '
-(' (
-$str( 7
-)7 8
-.8 9
-Include9 @
-(@ A
-$str /
-,/ 0
-$str *
-)* +
-)+ ,
-;, -
-} 	
-} 
-} …
+new 
+StyleBundle '
+(' (
+$str( 7
+)7 8
+.8 9
+Include9 @
+(@ A
+$strA Z
+)Z [
+)[ \
+;\ ]
+} 	
+} 
+} ™
 ZC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\FilterConfig.cs
 	namespace 	
 TestCrud
  
 { 
 public 
-
-class 
-FilterConfig 
+
+static 
+class 
+FilterConfig $
 { 
 public 
 static 
@@ -156,7 +92,7 @@ ZC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\Filt
 3 4
 } 	
 } 
-} ã
+} ÷
 YC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\RouteConfig.cs
 	namespace 	
 TestCrud
@@ -165,13 +101,16 @@ YC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\Rout
 public
 
  
-
+
+static
+
+ 
 class
 
- 
+ 
 RouteConfig
 
- 
+ #
 { 
 public 
 static 
@@ -224,8 +163,8 @@ controller  *
 ; 
 } 	
 } 
-} ÷<
-cC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\empleadosController.cs
+} ÿ4
+cC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\EmpleadosController.cs
 	namespace 	
 TestCrud
  
@@ -235,20 +174,21 @@ cC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\em
 public 
 
 class 
-empleadosController $
+EmpleadosController $
 :% &
 
 Controller' 1
 { 
 private 
-entities 
-db 
-= 
-new !
-entities" *
-(* +
-)+ ,
-;, -
+readonly 
+entities !
+db" $
+=% &
+new' *
+entities+ 3
+(3 4
+)4 5
+;5 6
 public 
 ActionResult 
 Index !
@@ -269,249 +209,249 @@ Controller' 1
 ;1 2
 } 	
 public 
-ActionResult 
-Details #
-(# $
-int$ '
-?' (
-id) +
-)+ ,
-{ 	
-if 
-( 
-id 
-== 
-null 
-) 
-{ 
-return 
-new  
-HttpStatusCodeResult /
-(/ 0
-HttpStatusCode0 >
-.> ?
+ActionResult 
+Create "
+(" #
+)# $
+{ 	
+return 
+View 
+( 
+) 
+; 
+} 	
+[   	
+HttpPost  	 
+]   
+[!! 	$
+ValidateAntiForgeryToken!!	 !
+]!!! "
+public"" 
+ActionResult"" 
+Create"" "
+(""" #
+[""# $
+Bind""$ (
+(""( )
+Include"") 0
+=""1 2
+$str""3 I
+)""I J
+]""J K
+tblEmpleados""L X
+tblEmpleados""Y e
+)""e f
+{## 	
+if$$ 
+($$ 
 
-BadRequest? I
-)I J
-;J K
-} 
-tblEmpleados 
-tblEmpleados %
-=& '
-db( *
-.* +
-tblEmpleados+ 7
-.7 8
-Find8 <
-(< =
-id= ?
-)? @
-;@ A
-if 
-( 
-tblEmpleados 
-== 
-null  $
-)$ %
-{   
-return!! 
-HttpNotFound!! #
-(!!# $
-)!!$ %
-;!!% &
-}"" 
-return## 
-View## 
-(## 
-tblEmpleados## $
-)##$ %
-;##% &
-}$$ 	
-public'' 
-ActionResult'' 
-Create'' "
-(''" #
-)''# $
-{(( 	
-return)) 
-View)) 
-()) 
-))) 
-;)) 
-}** 	
-[// 	
-HttpPost//	 
-]// 
-[00 	$
-ValidateAntiForgeryToken00	 !
-]00! "
-public11 
-ActionResult11 
-Create11 "
-(11" #
-[11# $
-Bind11$ (
-(11( )
-Include11) 0
-=111 2
-$str113 I
-)11I J
-]11J K
-tblEmpleados11L X
-tblEmpleados11Y e
-)11e f
-{22 	
-if33 
-(33 
+ModelState$$ 
+.$$ 
+IsValid$$ "
+)$$" #
+{%% 
+db&& 
+.&& 
+tblEmpleados&& 
+.&&  
+Add&&  #
+(&&# $
+tblEmpleados&&$ 0
+)&&0 1
+;&&1 2
+db'' 
+.'' 
+SaveChanges'' 
+('' 
+)''  
+;''  !
+return(( 
+RedirectToAction(( '
+(((' (
+$str((( /
+)((/ 0
+;((0 1
+})) 
+return++ 
+View++ 
+(++ 
+tblEmpleados++ $
+)++$ %
+;++% &
+},, 	
+public// 
+ActionResult// 
+Edit//  
+(//  !
+int//! $
+?//$ %
+id//& (
+)//( )
+{00 	
+if11 
+(11 
+id11 
+==11 
+null11 
+)11 
+{22 
+return33 
+new33  
+HttpStatusCodeResult33 /
+(33/ 0
+HttpStatusCode330 >
+.33> ?
 
-ModelState33 
-.33 
-IsValid33 "
-)33" #
-{44 
-db55 
-.55 
-tblEmpleados55 
-.55  
-Add55  #
-(55# $
-tblEmpleados55$ 0
-)550 1
-;551 2
-db66 
-.66 
-SaveChanges66 
-(66 
-)66  
-;66  !
-return77 
-RedirectToAction77 '
-(77' (
-$str77( /
-)77/ 0
-;770 1
-}88 
+BadRequest33? I
+)33I J
+;33J K
+}44 
+tblEmpleados55 
+tblEmpleados55 %
+=55& '
+db55( *
+.55* +
+tblEmpleados55+ 7
+.557 8
+Find558 <
+(55< =
+id55= ?
+)55? @
+;55@ A
+if66 
+(66 
+tblEmpleados66 
+==66 
+null66  $
+)66$ %
+{77 
+return88 
+HttpNotFound88 #
+(88# $
+)88$ %
+;88% &
+}99 
 return:: 
 View:: 
 (:: 
 tblEmpleados:: $
 )::$ %
 ;::% &
-};; 	
-public>> 
-ActionResult>> 
-Edit>>  
-(>>  !
-int>>! $
-?>>$ %
-id>>& (
-)>>( )
-{?? 	
-if@@ 
-(@@ 
-id@@ 
-==@@ 
-null@@ 
-)@@ 
-{AA 
-returnBB 
-newBB  
-HttpStatusCodeResultBB /
-(BB/ 0
-HttpStatusCodeBB0 >
-.BB> ?
+};; 	
+[@@ 	
+HttpPost@@	 
+]@@ 
+[AA 	$
+ValidateAntiForgeryTokenAA	 !
+]AA! "
+publicBB 
+ActionResultBB 
+EditBB  
+(BB  !
+[BB! "
+BindBB" &
+(BB& '
+IncludeBB' .
+=BB/ 0
+$strBB1 G
+)BBG H
+]BBH I
+tblEmpleadosBBJ V
+tblEmpleadosBBW c
+)BBc d
+{CC 	
+ifDD 
+(DD 
 
-BadRequestBB? I
-)BBI J
-;BBJ K
-}CC 
-tblEmpleadosDD 
-tblEmpleadosDD %
-=DD& '
-dbDD( *
-.DD* +
-tblEmpleadosDD+ 7
-.DD7 8
-FindDD8 <
-(DD< =
-idDD= ?
-)DD? @
-;DD@ A
-ifEE 
-(EE 
-tblEmpleadosEE 
-==EE 
-nullEE  $
-)EE$ %
-{FF 
-returnGG 
-HttpNotFoundGG #
-(GG# $
-)GG$ %
-;GG% &
-}HH 
-returnII 
-ViewII 
-(II 
-tblEmpleadosII $
-)II$ %
-;II% &
-}JJ 	
-[OO 	
-HttpPostOO	 
-]OO 
-[PP 	$
-ValidateAntiForgeryTokenPP	 !
-]PP! "
-publicQQ 
-ActionResultQQ 
-EditQQ  
-(QQ  !
-[QQ! "
-BindQQ" &
-(QQ& '
-IncludeQQ' .
-=QQ/ 0
-$strQQ1 G
-)QQG H
-]QQH I
-tblEmpleadosQQJ V
-tblEmpleadosQQW c
-)QQc d
-{RR 	
-ifSS 
-(SS 
+ModelStateDD 
+.DD 
+IsValidDD "
+)DD" #
+{EE 
+dbFF 
+.FF 
+EntryFF 
+(FF 
+tblEmpleadosFF %
+)FF% &
+.FF& '
+StateFF' ,
+=FF- .
+EntityStateFF/ :
+.FF: ;
+ModifiedFF; C
+;FFC D
+dbGG 
+.GG 
+SaveChangesGG 
+(GG 
+)GG  
+;GG  !
+returnHH 
+RedirectToActionHH '
+(HH' (
+$strHH( /
+)HH/ 0
+;HH0 1
+}II 
+returnJJ 
+ViewJJ 
+(JJ 
+tblEmpleadosJJ $
+)JJ$ %
+;JJ% &
+}KK 	
+publicNN 
+ActionResultNN 
+DeleteNN "
+(NN" #
+intNN# &
+?NN& '
+idNN( *
+)NN* +
+{OO 	
+ifPP 
+(PP 
+idPP 
+==PP 
+nullPP 
+)PP 
+{QQ 
+returnRR 
+newRR  
+HttpStatusCodeResultRR /
+(RR/ 0
+HttpStatusCodeRR0 >
+.RR> ?
 
-ModelStateSS 
-.SS 
-IsValidSS "
-)SS" #
-{TT 
-dbUU 
-.UU 
-EntryUU 
-(UU 
-tblEmpleadosUU %
-)UU% &
-.UU& '
-StateUU' ,
-=UU- .
-EntityStateUU/ :
-.UU: ;
-ModifiedUU; C
-;UUC D
-dbVV 
-.VV 
-SaveChangesVV 
-(VV 
-)VV  
-;VV  !
-returnWW 
-RedirectToActionWW '
-(WW' (
-$strWW( /
-)WW/ 0
-;WW0 1
+BadRequestRR? I
+)RRI J
+;RRJ K
+}SS 
+tblEmpleadosTT 
+tblEmpleadosTT %
+=TT& '
+dbTT( *
+.TT* +
+tblEmpleadosTT+ 7
+.TT7 8
+FindTT8 <
+(TT< =
+idTT= ?
+)TT? @
+;TT@ A
+ifUU 
+(UU 
+tblEmpleadosUU 
+==UU 
+nullUU  $
+)UU$ %
+{VV 
+returnWW 
+HttpNotFoundWW #
+(WW# $
+)WW$ %
+;WW% &
 }XX 
 returnYY 
 ViewYY 
@@ -519,151 +459,92 @@ ModelStateSS 
 tblEmpleadosYY $
 )YY$ %
 ;YY% &
-}ZZ 	
-public]] 
-ActionResult]] 
-Delete]] "
-(]]" #
-int]]# &
-?]]& '
-id]]( *
-)]]* +
-{^^ 	
-if__ 
-(__ 
-id__ 
-==__ 
-null__ 
-)__ 
-{`` 
-returnaa 
-newaa  
-HttpStatusCodeResultaa /
-(aa/ 0
-HttpStatusCodeaa0 >
-.aa> ?
+}ZZ 	
+[]] 	
+HttpPost]]	 
+,]] 
 
-BadRequestaa? I
-)aaI J
-;aaJ K
-}bb 
-tblEmpleadoscc 
-tblEmpleadoscc %
-=cc& '
-dbcc( *
-.cc* +
-tblEmpleadoscc+ 7
-.cc7 8
-Findcc8 <
-(cc< =
-idcc= ?
-)cc? @
-;cc@ A
-ifdd 
-(dd 
-tblEmpleadosdd 
-==dd 
-nulldd  $
-)dd$ %
-{ee 
-returnff 
-HttpNotFoundff #
-(ff# $
-)ff$ %
-;ff% &
-}gg 
-returnhh 
-Viewhh 
-(hh 
-tblEmpleadoshh $
-)hh$ %
-;hh% &
-}ii 	
-[ll 	
-HttpPostll	 
-,ll 
-
-ActionNamell 
-(ll 
-$strll &
-)ll& '
-]ll' (
-[mm 	$
-ValidateAntiForgeryTokenmm	 !
-]mm! "
-publicnn 
-ActionResultnn 
-DeleteConfirmednn +
-(nn+ ,
-intnn, /
-idnn0 2
-)nn2 3
-{oo 	
-tblEmpleadospp 
-tblEmpleadospp %
-=pp& '
-dbpp( *
-.pp* +
-tblEmpleadospp+ 7
-.pp7 8
-Findpp8 <
-(pp< =
-idpp= ?
-)pp? @
-;pp@ A
-dbqq 
-.qq 
-tblEmpleadosqq 
-.qq 
-Removeqq "
-(qq" #
-tblEmpleadosqq# /
-)qq/ 0
-;qq0 1
-dbrr 
-.rr 
-SaveChangesrr 
-(rr 
-)rr 
-;rr 
-returnss 
-RedirectToActionss #
-(ss# $
-$strss$ +
-)ss+ ,
-;ss, -
-}tt 	
-	protectedvv 
-overridevv 
-voidvv 
-Disposevv  '
-(vv' (
-boolvv( ,
-	disposingvv- 6
-)vv6 7
-{ww 	
-ifxx 
-(xx 
-	disposingxx 
-)xx 
-{yy 
-dbzz 
-.zz 
-Disposezz 
-(zz 
-)zz 
-;zz 
-}{{ 
-base|| 
-.|| 
-Dispose|| 
-(|| 
-	disposing|| "
-)||" #
-;||# $
-}}} 	
-}~~ 
-} Þ
+ActionName]] 
+(]] 
+$str]] &
+)]]& '
+]]]' (
+[^^ 	$
+ValidateAntiForgeryToken^^	 !
+]^^! "
+public__ 
+ActionResult__ 
+DeleteConfirmed__ +
+(__+ ,
+int__, /
+id__0 2
+)__2 3
+{`` 	
+tblEmpleadosaa 
+tblEmpleadosaa %
+=aa& '
+dbaa( *
+.aa* +
+tblEmpleadosaa+ 7
+.aa7 8
+Findaa8 <
+(aa< =
+idaa= ?
+)aa? @
+;aa@ A
+dbbb 
+.bb 
+tblEmpleadosbb 
+.bb 
+Removebb "
+(bb" #
+tblEmpleadosbb# /
+)bb/ 0
+;bb0 1
+dbcc 
+.cc 
+SaveChangescc 
+(cc 
+)cc 
+;cc 
+returndd 
+RedirectToActiondd #
+(dd# $
+$strdd$ +
+)dd+ ,
+;dd, -
+}ee 	
+	protectedgg 
+overridegg 
+voidgg 
+Disposegg  '
+(gg' (
+boolgg( ,
+	disposinggg- 6
+)gg6 7
+{hh 	
+ifii 
+(ii 
+	disposingii 
+)ii 
+{jj 
+dbkk 
+.kk 
+Disposekk 
+(kk 
+)kk 
+;kk 
+}ll 
+basemm 
+.mm 
+Disposemm 
+(mm 
+	disposingmm "
+)mm" #
+;mm# $
+}nn 	
+}oo 
+}pp Þ
 ^C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\HomeController.cs
 	namespace 	
 TestCrud

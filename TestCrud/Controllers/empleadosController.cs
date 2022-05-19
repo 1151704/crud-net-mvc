@@ -10,29 +10,14 @@ using TestCrud;
 
 namespace TestCrud.Controllers
 {
-    public class empleadosController : Controller
+    public class EmpleadosController : Controller
     {
-        private entities db = new entities();
+        private readonly entities db = new entities();
 
         // GET: empleados
         public ActionResult Index()
         {
             return View(db.tblEmpleados.ToList());
-        }
-
-        // GET: empleados/Details/5
-        public ActionResult Details(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            tblEmpleados tblEmpleados = db.tblEmpleados.Find(id);
-            if (tblEmpleados == null)
-            {
-                return HttpNotFound();
-            }
-            return View(tblEmpleados);
         }
 
         // GET: empleados/Create

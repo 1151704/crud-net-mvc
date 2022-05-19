@@ -1,13 +1,13 @@
-²
+Š
 ZC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\BundleConfig.cs
 
- 
+ $
 
-		 *<
-		< C     Š
+		 *
+		< C Š
 ZC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\FilterConfig.cs
 
- 
+ $
 
  0
 H O
@@ -17,43 +17,39 @@ YC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\App_Start\Rout
 
 
 
- 
+ #
 
  )
-: @  ®
-cC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\empleadosController.cs
+: @  ×
+cC:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\EmpleadosController.cs
 
- $‚
-  ( *55 66 DD( *UU VV cc( *pp( *qq rr zz 
+ $x
+" $ && '' 55( *FF GG TT( *aa( *bb cc kk 
 
  !
 
- #
-) + = ?
- % ## $
+ "
 
-'' "
+"" "
+""Y e&&$ 0++ $
 
-11 "
-11Y e55$ 0:: $
+//  
+//& (11 55= ?
+55 %66 :: $
 
->>  
->>& (@@ DD= ?
-DD %EE II $
+BB  
+BBW cFF %JJ $
 
-QQ  
-QQW cUU %YY $
+NN "
+NN( *PP TT= ?
+TT %UU YY $
 
-]] "
-]]( *__ cc= ?
-cc %dd hh $
+__ +
+__0 2aa= ?
+aa %bb# /
 
-nn +
-nn0 2pp= ?
-pp %qq# /
-
-vv  '
-vv- 6xx || "„
+gg  '
+gg- 6ii mm "„
 ^C:\Users\USUARIO\repositorios\Arquitectura\crud-net-mvc\TestCrud\Controllers\HomeController.cs
 
 		 
